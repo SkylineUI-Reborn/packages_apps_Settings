@@ -48,4 +48,8 @@
     <!-- Unlimit screenrecord -->
     <string name="miscellaneous_unlimit_screenrecord_title">Unlimit screenrecord</string>
     <string name="miscellaneous_unlimit_screenrecord_summary">Remove the 15GiB file size limit\nMay result in a larger than needed output file</string>
+
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Kill background processes</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
 </resources>
