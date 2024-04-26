@@ -34,4 +34,9 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Power menu</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+
+    <!-- Kill app button -->
+    <string name="notifications_interface_category">Interface</string>
+    <string name="notifications_kill_app_button_title">Kill app</string>
+    <string name="notifications_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
 </resources>
