@@ -24,20 +24,6 @@
         android:selectable="false"
         settings:searchable="false"/>
 
-    <!-- Snapchat (spoof as Pixel XL) -->
-    <com.android.settings.preference.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.snapchat"
-        android:title="@string/snapchat_spoof_title"
-        android:summary="@string/snapchat_spoof_summary"
-        android:defaultValue="false" />
-
-    <!-- Netflix -->
-    <com.android.settings.preference.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.netflix"
-        android:title="@string/netflix_spoof_title"
-        android:summary="@string/netflix_spoof_summary"
-        android:defaultValue="false" />
-
     <!-- Ignore window secure -->
     <com.android.settings.custom.preference.GlobalSettingSwitchPreference
         android:key="window_ignore_secure"
@@ -58,5 +44,5 @@
         android:title="@string/lockscreen_enable_power_menu_title"
         android:summary="@string/lockscreen_enable_power_menu_summary"
         android:defaultValue="true" />
-    
+
 </PreferenceScreen>
