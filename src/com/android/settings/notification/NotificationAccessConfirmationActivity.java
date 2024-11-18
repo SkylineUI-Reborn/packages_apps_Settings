@@ -42,7 +42,6 @@ import android.util.Slog;
 import android.view.WindowManager;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.Toast;
-
 import androidx.annotation.Nullable;
 
 import com.android.internal.app.AlertActivity;

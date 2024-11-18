@@ -141,7 +141,7 @@ public class SearchResultTrampoline extends Activity {
     private boolean isSettingsIntelligence(String callerPackage) {
         return TextUtils.equals(
                 callerPackage,
-                FeatureFactory.getFeatureFactory().getSearchFeatureProvider()
+                FeatureFactory.getFactory(this).getSearchFeatureProvider()
                         .getSettingsIntelligencePkgName(this));
     }
 }
